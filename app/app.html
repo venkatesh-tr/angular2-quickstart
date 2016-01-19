@@ -1,0 +1,18 @@
+<h1><u>Hello World!</u> This is my Angular 2 App!</h1>
+<form>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" required [(ngModel)]="name">
+  </div>
+  <div class="form-group">
+    <label for="alterEgo">Alter Ego</label>
+    <input type="text" class="form-control" [(ngModel)]="ego">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+
+<br>
+<p>I am
+  <strong>{{name}}</strong> and I hold {{ego}}% ego
+</p>
